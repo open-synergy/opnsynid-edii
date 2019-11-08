@@ -15,3 +15,4 @@
 opnsynid-server-tools https://github.com/open-synergy/opnsynid-server-tools 8.0
 aeroo_reports https://github.com/aeroo/aeroo_reports 8.0
 oca_account_invoicing https://github.com/OCA/account-invoicing.git 8.0
+opnsynid-account-invoicing https://github.com/open-synergy/opnsynid-account-invoicing 8.0
