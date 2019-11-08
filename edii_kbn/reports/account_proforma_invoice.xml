@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <record id="account_proforma_invoice_pdf_report" model="ir.actions.report.xml">
+            <field name="name">EDI: Proforma Invoice A4 Pdf</field>
+            <field name="type">ir.actions.report.xml</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">edi_proforma_invoice_a4_pdf</field>
+            <field name="report_type">aeroo</field>
+            <field name="in_format">oo-odt</field>
+            <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+            <field name="parser_loc">edii_kbn/reports/account_proforma_invoice.py</field>
+            <field name="report_rml">edii_kbn/reports/account_proforma_invoice.odt</field>
+            <field name="parser_state">loc</field>
+            <field name="tml_source">file</field>
+        </record>
+    </data>
+</openerp>

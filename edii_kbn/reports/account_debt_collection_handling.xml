@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <record id="account_debt_collection_handling_pdf_report" model="ir.actions.report.xml">
+            <field name="name">EDI: Invoice Handling A4 PDF</field>
+            <field name="type">ir.actions.report.xml</field>
+            <field name="model">account.debt_collection</field>
+            <field name="report_name">InvoiceHandlingEdi</field>
+            <field name="report_type">aeroo</field>
+            <field name="in_format">oo-odt</field>
+            <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+            <field name="parser_loc">edii_kbn/reports/account_debt_collection_handling.py</field>
+            <field name="report_rml">edii_kbn/reports/account_debt_collection_handling.odt</field>
+            <field name="parser_state">loc</field>
+            <field name="tml_source">file</field>
+        </record>
+
+        <record id="account_debt_collection_handling_ribuan_pdf_report" model="ir.actions.report.xml">
+            <field name="name">EDI: Invoice Handling Ribuan A4 PDF</field>
+            <field name="type">ir.actions.report.xml</field>
+            <field name="model">account.debt_collection</field>
+            <field name="report_name">InvoiceHandlingRibuanEdi</field>
+            <field name="report_type">aeroo</field>
+            <field name="in_format">oo-odt</field>
+            <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
+            <field name="parser_loc">edii_kbn/reports/account_debt_collection_handling.py</field>
+            <field name="report_rml">edii_kbn/reports/account_debt_collection_handling_ribuan.odt</field>
+            <field name="parser_state">loc</field>
+            <field name="tml_source">file</field>
+        </record>
+    </data>
+</openerp>

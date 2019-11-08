@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 OpenSynergy Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<openerp>
+<data>
+
+<record id="edii_product_categ_fulfillment_service_root" model="product.category">
+    <field name="name">Fulfillment Service</field>
+    <field name="type">normal</field>
+</record>
+
+<record id="edii_product_categ_sewa_gudang_lap" model="product.category">
+    <field name="name">Sewa Gudang/Lapangan</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_stripping" model="product.category">
+    <field name="name">Stripping</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_stuffing" model="product.category">
+    <field name="name">Stuffing</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_lift_off" model="product.category">
+    <field name="name">Lift Off Kontainer Isi</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_lift_on" model="product.category">
+    <field name="name">Lift On Kontainer Kosong</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_jasa_angkutan_import" model="product.category">
+    <field name="name">Jasa Angkutan Import</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_biaya_pihak_3" model="product.category">
+    <field name="name">Biaya Pihak ke-3</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_e_seal" model="product.category">
+    <field name="name">E-Seal</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+<record id="edii_product_categ_biaya_lain" model="product.category">
+    <field name="name">Biaya Lain-Lain</field>
+    <field name="type">normal</field>
+    <field name="parent_id" ref="edii_product_categ_fulfillment_service_root"/>
+</record>
+
+</data>
+</openerp>
