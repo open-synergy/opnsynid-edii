@@ -5,4 +5,5 @@
 from . import (
     account_proforma_invoice,
     account_debt_collection_handling,
+    account_debt_collection_lahan,
 )

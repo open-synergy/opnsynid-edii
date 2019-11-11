@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     "name": "EDI - Proforma Invoice Aeroo Report",
-    "version": "8.0.1.0.0",
+    "version": "8.0.1.1.0",
     "category": "Invoicing",
     "website": "https://opensynergy-indonesia.com/",
     "author": "OpenSynergy Indonesia",
@@ -22,5 +22,6 @@
         "data/decimal_precision_data.xml",
         "reports/account_proforma_invoice.xml",
         "reports/account_debt_collection_handling.xml",
+        "reports/account_debt_collection_lahan.xml",
     ],
 }
